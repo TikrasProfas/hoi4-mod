@@ -1,0 +1,28 @@
+characters = {
+	Maia_Sandu = {
+		name = Maia_Sandu
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/BSR/Maia_Sandu.dds"
+			}
+		}
+		country_leader = {
+			expire = "2500.1.1"
+			ideology = socialism
+			traits = {  }
+		}
+	}
+	Emmanuel_Macron = {
+		name = Emmanuel_Macron
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/FRA/Emmanuel_Macron.dds"
+			}
+		}
+		country_leader = {
+			expire = "2500.1.1"
+			ideology = socialism
+			traits = {  }
+		}
+	}
+}

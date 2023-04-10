@@ -7,6 +7,8 @@ state = {
 		aluminium = 7
 	}
 	history = {
+		owner = BOS
+		add_core_of = BOS
 		victory_points = {
 			11899 5 
 		}

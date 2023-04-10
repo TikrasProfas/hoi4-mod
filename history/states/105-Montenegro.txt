@@ -6,6 +6,8 @@ state = {
 		aluminium = 70.000
 	}
 	history = {
+		owner = MNT
+		add_core_of = MNT
 		victory_points = {
 			9809 3 
 		}

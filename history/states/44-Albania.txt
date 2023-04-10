@@ -7,6 +7,7 @@ state = {
 		oil = 4.000
 	}
 	history = {
+		owner = ALB
 		victory_points = {
 			9914 5 
 		}
@@ -35,13 +36,7 @@ state = {
 			}
 
 		}
-		add_claim_by = ITA
-		1939.4.12 = {
-			#owner = ITA
-			#controller = ITA
-			remove_claim_by = ITA
-
-		}
+		add_core_of = ALB
 	}
 	provinces = {
 		3448 3884 3896 6900 9780 9875 9914 11762 11767 13255 

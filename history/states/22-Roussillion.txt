@@ -8,6 +8,8 @@ state = {
 		aluminium = 50
 	}
 	history = {
+		owner = FRA
+		add_core_of = FRA
 		victory_points = {
 			9898 1 
 		}

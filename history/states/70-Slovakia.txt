@@ -19,11 +19,9 @@ state = {
 			arms_factory = 2
 			air_base = 3
 		}
-		1939.3.14 = {
-			#owner = SLO
-			#controller = SLO
-			#add_core_of = SLO
-		}
+		owner = SLO
+		controller = SLO
+		add_core_of = SLO
 	}
 	provinces = {
 		541 3484 3537 9539 9692 11522 11539 

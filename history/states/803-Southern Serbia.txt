@@ -9,7 +9,8 @@ state = {
 			infrastructure = 2
 
 		}
-		add_claim_by = BUL
+		owner = SER
+		add_core_of = SER
 	}
 	provinces = {
 		11832 11857 11868 

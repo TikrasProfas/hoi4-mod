@@ -11,11 +11,9 @@ state = {
 			infrastructure = 2
 			industrial_complex = 2
 		}
-		1939.3.14 = {
-			#owner = SLO
-			#controller = SLO
-			#add_core_of = SLO
-		}
+		owner = SLO
+		controller = SLO
+		add_core_of = SLO
 	}
 	provinces = {
 		555 581 3550 3581 6586 6604 11554 

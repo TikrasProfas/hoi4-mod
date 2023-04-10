@@ -15,7 +15,8 @@ state = {
 		victory_points = {
 			3882 5
 		}
-		add_claim_by = BUL
+		add_core_of = MAC
+		owner = MAC
 	}
 	provinces = {
 		833 867 907 974 3833 3865 3882 6886 11856 

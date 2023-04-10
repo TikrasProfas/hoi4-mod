@@ -1,0 +1,35 @@
+﻿oob = "DSS_2022"
+capital = 1
+set_research_slots = 3
+set_stability = 0.3
+set_war_support = 0.2
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 2022.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "2021.1.5"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 90
+	fascism = 0
+	communism = 5
+	neutrality = 5
+}
+
+recruit_character = Maia_Sandu
+
