@@ -1,0 +1,54 @@
+
+#Custom colours start here
+RUS = {
+	color = rgb { 0 20 97 }
+	color_ui = rgb { 0 20 97 }
+}
+BUR = {
+	color = rgb { 19 0 0 }
+	color_ui = rgb { 19 0 0 }
+}
+UKR = {
+	color = rgb { 59 158 255 }
+	color_ui = rgb { 59 158 255 }
+}
+BLR = {
+	color = rgb { 21 221 39 }
+	color_ui = rgb { 21 221 39 }
+}
+POL = {
+	color = rgb { 186 45 43 }
+	color_ui = rgb { 186 45 43 }
+}
+HYP = {
+	color = rgb { 68 0 32 }
+	color_ui = rgb { 68 0 32 }
+}
+IRL = {
+	color = rgb { 100 191 138 }
+	color_ui = rgb { 100 191 138 }
+}
+NRO = {
+	color = rgb { 0 20 0 }
+	color_ui = rgb { 0 20 0 }
+}
+KID = {
+	color = rgb { 43 65 116 }
+	color_ui = rgb { 43 65 116 }
+}
+USA = {
+	color = rgb { 0 0 131 }
+	color_ui = rgb { 0 0 131 }
+}
+CMS = {
+	color = rgb { 191 0 0 }
+	color_ui = rgb { 191 0 0 }
+}
+DSS = {
+	color = rgb { 106 80 35 }
+	color_ui = rgb { 106 80 35 }
+}
+KAU = {
+	color = rgb { 0 107 0 }
+	color_ui = rgb { 0 107 0 }
+}

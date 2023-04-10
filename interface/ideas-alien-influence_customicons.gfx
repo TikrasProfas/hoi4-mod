@@ -1,0 +1,21 @@
+spriteTypes = { 
+	##Icon For: Influence of Alien Technology
+	SpriteType = { 
+		name = "GFX_idea_influence_of_alien_technology-358963"
+		texturefile = "gfx/interface/ideas/alien-influence-ideas/influence_of_alien_technology-358963.dds"
+	}
+
+	##Icon For: Alien Economics
+	SpriteType = { 
+		name = "GFX_idea_alien_economics-358956"
+		texturefile = "gfx/interface/ideas/alien-influence-ideas/alien_economics-358956.dds"
+	}
+
+	##Icon For: Alien Trade Laws
+	SpriteType = { 
+		name = "GFX_idea_alien_trade_laws-358956"
+		texturefile = "gfx/interface/ideas/alien-influence-ideas/alien_trade_laws-358956.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,21 @@
+state = {
+	id = 102
+	name = "STATE_102"
+	manpower = 1144300
+	state_category = large_town
+	history = {
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			9627 3 
+		}
+		add_core_of = NRO
+		owner = NRO
+		controller = NRO
+	}
+	provinces = {
+		596 665 3631 3654 6650 6672 9596 9627 }
+	local_supplies = 5.0
+
+}

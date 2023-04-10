@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - SwordNordenite
+swordnordenite = {
+	name = swordnordenite
+	portraits = {
+		civilian = {
+			#Custom image for SwordNordenite
+			large = "/gfx/leaders/NRO/nKkZRTcg-368856.dds"
+		}
+	}
+	country_leader = {
+		expire = "2500.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,35 @@
+﻿oob = "KID_2022"
+capital = 1
+set_research_slots = 4
+set_stability = 80
+set_war_support = 80
+set_convoys = 50
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 2022.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2021.9.10"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+recruit_character = rognopas
+

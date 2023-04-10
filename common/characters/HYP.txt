@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Volkkie
+volkkie = {
+	name = volkkie
+	portraits = {
+		civilian = {
+			#Custom image for Volkkie
+			large = "/gfx/leaders/HYP/nIWwDtSz-367248.dds"
+		}
+	}
+	country_leader = {
+		expire = "3000.1.1"
+		ideology = nazism
+		traits = {  propaganda_expert }
+	}
+}
+}

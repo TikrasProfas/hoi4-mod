@@ -1,0 +1,26 @@
+bookmarks = {
+	bookmark = {
+		name = "YOUR_START_DATE_LOC"
+		desc = "YOUR_START_DATE_LOC_DESC"
+		date = 2021.1.1.12
+		picture = "GFX_select_date_1942"
+		default_country = "USA"
+		default = yes
+
+		RUS={
+			history = "RUS_START_DATE_LOC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				RUS_the_path_of_proism
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

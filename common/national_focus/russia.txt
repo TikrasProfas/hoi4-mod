@@ -1,0 +1,230 @@
+focus_tree = {
+	id = russia
+	continuous_focus_position = { x = 2430 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	#The Path of Proism
+	focus = {
+		id = RUS_the_path_of_proism
+		icon = GFX_RUS_the_path_of_proism-369990
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { }
+		completion_reward = {
+			set_political_power = 300
+			
+			
+		}
+	}
+
+	#T-14 Armata
+	focus = {
+		id = RUS_t14_armata
+		icon = GFX_RUS_t14_armata-370013
+		x = 9
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = RUS_totalwar  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = heavy_tank_equipment
+			    amount = 1000
+			    producer = SOV
+			}
+			
+			
+			
+		}
+	}
+
+	#Defend Russia!
+	focus = {
+		id = RUS_defendrussia
+		icon = GFX_RUS_defendrussia-370017
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = RUS_t14_armata  } prerequisite = { focus = RUS_neversurrender  }
+	}
+
+	#Increase Arms Production
+	focus = {
+		id = RUS_increase_arms_production
+		icon = GFX_RUS_increase_arms_production-369992
+		x = 3
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = RUS_the_path_of_proism  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 10000
+			    producer = SOV
+			}
+			
+			
+			
+		}
+	}
+
+	#Increase funding of Wagner Group
+	focus = {
+		id = RUS_increase_funding_of_wagner_group
+		icon = GFX_RUS_increase_funding_of_wagner_group-369993
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = RUS_the_path_of_proism  }
+		completion_reward = {
+			add_war_support = 40.00
+			
+			
+		}
+	}
+
+	#Launch a Special Military Operation in Ukraine
+	focus = {
+		id = RUS_launch_a_special_military_operation_in_ukraine
+		icon = GFX_RUS_launch_a_special_military_operation_in_ukraine-370003
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RUS_increase_arms_production  } prerequisite = { focus = RUS_increase_funding_of_wagner_group  }
+		completion_reward = {
+			declare_war_on = {
+			    target = UKR
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Declare a Partial Mobilization
+	focus = {
+		id = RUS_declare_a_partial_mobilization
+		icon = GFX_RUS_declare_a_partial_mobilization-370005
+		x = 2
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = RUS_launch_a_special_military_operation_in_ukraine  }
+		completion_reward = {
+			add_manpower = 1000000
+			
+			
+		}
+	}
+
+	#Annex Belarus
+	focus = {
+		id = RUS_annex_belarus
+		icon = GFX_RUS_annex_belarus-370008
+		x = 6
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RUS_launch_a_special_military_operation_in_ukraine  }
+		select_effect = {
+annex_country = {
+    target = BLR
+    transfer_troops = yes
+}
+
+
+
+}
+	}
+
+	#Invade Poland
+	focus = {
+		id = RUS_invade_poland
+		icon = GFX_RUS_invade_poland-370011
+		x = 4
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RUS_declare_a_partial_mobilization  } prerequisite = { focus = RUS_annex_belarus  }
+		select_effect = {
+declare_war_on = {
+    target = POL
+    type = annex_everything
+}
+
+
+
+}
+	}
+
+	#Total War!
+	focus = {
+		id = RUS_totalwar
+		icon = GFX_RUS_totalwar-370012
+		x = 10
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		available = {
+			has_war_with = NRO
+			
+			
+		}
+		completion_reward = {
+			add_manpower = 2000000
+			
+			
+		}
+	}
+
+	#Never Surrender!
+	focus = {
+		id = RUS_neversurrender
+		icon = GFX_RUS_neversurrender-370016
+		x = 11
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = RUS_totalwar  }
+		completion_reward = {
+			add_war_support = 50.00
+			
+			
+		}
+	}
+
+}

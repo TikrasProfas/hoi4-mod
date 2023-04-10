@@ -1,0 +1,214 @@
+focus_tree = {
+	id = ss-nordenite-empire-focus-tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NRO
+		}
+	}
+	#Declare the Endreich
+	focus = {
+		id = NRO_declare_the_endreich
+		icon = GFX_NRO_declare_the_endreich-368755
+		x = 4
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = NRO_triumphofthereichsfuhrer  }
+		completion_reward = {
+			add_stability = 30.00
+			
+			
+			
+			
+		}
+	}
+
+	#Aryan Supermen
+	focus = {
+		id = NRO_aryan_supermen
+		icon = GFX_NRO_aryan_supermen-368758
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = NRO_declare_the_endreich  }
+		completion_reward = {
+			add_manpower = 1000000
+			
+			
+		}
+	}
+
+	#War Machines
+	focus = {
+		id = NRO_war_machines
+		icon = GFX_NRO_war_machines-368783
+		x = 1
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = NRO_aryan_supermen  }
+		completion_reward = {
+			add_war_support = 30.00
+			
+			
+			
+		}
+	}
+
+	#Revenge Culture
+	focus = {
+		id = NRO_revenge_culture
+		icon = GFX_NRO_revenge_culture-368775
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = NRO_aryan_supermen  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 10000
+			    producer = GER
+			}
+			
+			
+			
+			
+			
+		}
+	}
+
+	#Esoteric Aryanism
+	focus = {
+		id = NRO_esoteric_aryanism
+		icon = GFX_NRO_esoteric_aryanism-368853
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = NRO_war_machines  } prerequisite = { focus = NRO_revenge_culture  } prerequisite = { focus = NRO_the_black_army  } prerequisite = { focus = NRO_nuclear_rinse  }
+		completion_reward = {
+			declare_war_on = {
+			    target = BUR
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Rebirth of the True Faith
+	focus = {
+		id = NRO_rebirth_of_the_true_faith
+		icon = GFX_NRO_rebirth_of_the_true_faith-368793
+		x = 6
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NRO_declare_the_endreich  }
+	}
+
+	#The Black Army
+	focus = {
+		id = NRO_the_black_army
+		icon = GFX_NRO_the_black_army-368785
+		x = 5
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NRO_rebirth_of_the_true_faith  }
+	}
+
+	#Nuclear Rinse
+	focus = {
+		id = NRO_nuclear_rinse
+		icon = GFX_NRO_nuclear_rinse-367985
+		x = 7
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = NRO_rebirth_of_the_true_faith  }
+		completion_reward = {
+			add_nuclear_bombs = 100
+			
+			
+		}
+	}
+
+	#Der Endführer
+	focus = {
+		id = NRO_derendfuhrer
+		icon = GFX_NRO_derendfuhrer-368784
+		x = 6
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = NRO_war_machines  } prerequisite = { focus = NRO_revenge_culture  } prerequisite = { focus = NRO_the_black_army  } prerequisite = { focus = NRO_nuclear_rinse  }
+	}
+
+	#Final Solution
+	focus = {
+		id = NRO_final_solution
+		icon = GFX_NRO_final_solution-368770
+		x = 4
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = NRO_esoteric_aryanism  } prerequisite = { focus = NRO_derendfuhrer  }
+		completion_reward = {
+			declare_war_on = {
+			    target = RUS
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Triumph of the Reichsführer
+	focus = {
+		id = NRO_triumphofthereichsfuhrer
+		icon = GFX_NRO_triumphofthereichsfuhrer-368864
+		x = 4
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Our Friends in the South
+	focus = {
+		id = NRO_our_friends_in_the_south
+		icon = GFX_NRO_our_friends_in_the_south-369363
+		x = 6
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+}

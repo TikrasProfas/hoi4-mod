@@ -1,0 +1,419 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_the_path_of_proism-369990"
+		texturefile = "gfx/interface/goals/GFX_RUS_the_path_of_proism-369990.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_the_path_of_proism-369990_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_the_path_of_proism-369990.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_the_path_of_proism-369990.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_the_path_of_proism-369990.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_t14_armata-370013"
+		texturefile = "gfx/interface/goals/GFX_RUS_t14_armata-370013.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_t14_armata-370013_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_t14_armata-370013.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_t14_armata-370013.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_t14_armata-370013.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_defendrussia-370017"
+		texturefile = "gfx/interface/goals/GFX_RUS_defendrussia-370017.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_defendrussia-370017_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_defendrussia-370017.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_defendrussia-370017.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_defendrussia-370017.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_increase_arms_production-369992"
+		texturefile = "gfx/interface/goals/GFX_RUS_increase_arms_production-369992.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_increase_arms_production-369992_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_increase_arms_production-369992.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_increase_arms_production-369992.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_increase_arms_production-369992.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_increase_funding_of_wagner_group-369993"
+		texturefile = "gfx/interface/goals/GFX_RUS_increase_funding_of_wagner_group-369993.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_increase_funding_of_wagner_group-369993_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_increase_funding_of_wagner_group-369993.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_increase_funding_of_wagner_group-369993.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_increase_funding_of_wagner_group-369993.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_launch_a_special_military_operation_in_ukraine-370003"
+		texturefile = "gfx/interface/goals/GFX_RUS_launch_a_special_military_operation_in_ukraine-370003.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_launch_a_special_military_operation_in_ukraine-370003_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_launch_a_special_military_operation_in_ukraine-370003.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_launch_a_special_military_operation_in_ukraine-370003.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_launch_a_special_military_operation_in_ukraine-370003.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_declare_a_partial_mobilization-370005"
+		texturefile = "gfx/interface/goals/GFX_RUS_declare_a_partial_mobilization-370005.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_declare_a_partial_mobilization-370005_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_declare_a_partial_mobilization-370005.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_declare_a_partial_mobilization-370005.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_declare_a_partial_mobilization-370005.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_annex_belarus-370008"
+		texturefile = "gfx/interface/goals/GFX_RUS_annex_belarus-370008.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_annex_belarus-370008_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_annex_belarus-370008.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_annex_belarus-370008.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_annex_belarus-370008.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_invade_poland-370011"
+		texturefile = "gfx/interface/goals/GFX_RUS_invade_poland-370011.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_invade_poland-370011_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_invade_poland-370011.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_invade_poland-370011.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_invade_poland-370011.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_totalwar-370012"
+		texturefile = "gfx/interface/goals/GFX_RUS_totalwar-370012.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_totalwar-370012_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_totalwar-370012.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_totalwar-370012.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_totalwar-370012.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_RUS_neversurrender-370016"
+		texturefile = "gfx/interface/goals/GFX_RUS_neversurrender-370016.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_RUS_neversurrender-370016_shine"
+		texturefile = "gfx/interface/goals/GFX_RUS_neversurrender-370016.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_neversurrender-370016.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_RUS_neversurrender-370016.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}

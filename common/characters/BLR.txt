@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Alexander Lukashenko
+alexander_lukashenko = {
+	name = alexander_lukashenko
+	portraits = {
+		civilian = {
+			#Custom image for Alexander Lukashenko
+			large = "/gfx/leaders/BLR/YJglbKqm-366896.dds"
+		}
+	}
+	country_leader = {
+		expire = "2500.1.1"
+		ideology = centrism
+		traits = {  rearmer }
+	}
+}
+}

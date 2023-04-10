@@ -1,0 +1,18 @@
+HYP = {
+	male = {
+		names = {
+			"" 
+		}
+	}
+	female = {
+		names = {
+			"" 
+		}
+	}
+	surnames = {
+		"" 
+	}
+	callsigns = {
+		"" 
+	}
+}

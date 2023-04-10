@@ -1,0 +1,457 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_declare_the_endreich-368755"
+		texturefile = "gfx/interface/goals/GFX_NRO_declare_the_endreich-368755.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_declare_the_endreich-368755_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_declare_the_endreich-368755.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_declare_the_endreich-368755.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_declare_the_endreich-368755.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_aryan_supermen-368758"
+		texturefile = "gfx/interface/goals/GFX_NRO_aryan_supermen-368758.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_aryan_supermen-368758_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_aryan_supermen-368758.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_aryan_supermen-368758.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_aryan_supermen-368758.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_war_machines-368783"
+		texturefile = "gfx/interface/goals/GFX_NRO_war_machines-368783.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_war_machines-368783_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_war_machines-368783.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_war_machines-368783.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_war_machines-368783.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_revenge_culture-368775"
+		texturefile = "gfx/interface/goals/GFX_NRO_revenge_culture-368775.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_revenge_culture-368775_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_revenge_culture-368775.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_revenge_culture-368775.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_revenge_culture-368775.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_esoteric_aryanism-368853"
+		texturefile = "gfx/interface/goals/GFX_NRO_esoteric_aryanism-368853.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_esoteric_aryanism-368853_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_esoteric_aryanism-368853.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_esoteric_aryanism-368853.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_esoteric_aryanism-368853.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_rebirth_of_the_true_faith-368793"
+		texturefile = "gfx/interface/goals/GFX_NRO_rebirth_of_the_true_faith-368793.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_rebirth_of_the_true_faith-368793_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_rebirth_of_the_true_faith-368793.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_rebirth_of_the_true_faith-368793.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_rebirth_of_the_true_faith-368793.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_the_black_army-368785"
+		texturefile = "gfx/interface/goals/GFX_NRO_the_black_army-368785.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_the_black_army-368785_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_the_black_army-368785.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_the_black_army-368785.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_the_black_army-368785.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_nuclear_rinse-367985"
+		texturefile = "gfx/interface/goals/GFX_NRO_nuclear_rinse-367985.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_nuclear_rinse-367985_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_nuclear_rinse-367985.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_nuclear_rinse-367985.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_nuclear_rinse-367985.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_derendfuhrer-368784"
+		texturefile = "gfx/interface/goals/GFX_NRO_derendfuhrer-368784.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_derendfuhrer-368784_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_derendfuhrer-368784.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_derendfuhrer-368784.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_derendfuhrer-368784.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_final_solution-368770"
+		texturefile = "gfx/interface/goals/GFX_NRO_final_solution-368770.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_final_solution-368770_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_final_solution-368770.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_final_solution-368770.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_final_solution-368770.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_triumphofthereichsfuhrer-368864"
+		texturefile = "gfx/interface/goals/GFX_NRO_triumphofthereichsfuhrer-368864.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_triumphofthereichsfuhrer-368864_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_triumphofthereichsfuhrer-368864.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_triumphofthereichsfuhrer-368864.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_triumphofthereichsfuhrer-368864.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_NRO_our_friends_in_the_south-369363"
+		texturefile = "gfx/interface/goals/GFX_NRO_our_friends_in_the_south-369363.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_NRO_our_friends_in_the_south-369363_shine"
+		texturefile = "gfx/interface/goals/GFX_NRO_our_friends_in_the_south-369363.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_our_friends_in_the_south-369363.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_NRO_our_friends_in_the_south-369363.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}

@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Joe Biden
+joe_biden = {
+	name = joe_biden
+	portraits = {
+		civilian = {
+			#Custom image for Joe Biden
+			large = "/gfx/leaders/CMS/SRYCrByU-367919.dds"
+		}
+	}
+	country_leader = {
+		expire = "2500.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+}

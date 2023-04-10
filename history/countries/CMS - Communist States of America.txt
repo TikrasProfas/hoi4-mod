@@ -1,0 +1,35 @@
+﻿oob = "CMS_2022"
+capital = 1
+set_research_slots = 3
+set_stability = 30
+set_war_support = 40
+set_convoys = 40
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 2022.1.1
+set_politics = {
+	ruling_party = communism
+	last_election = "2021.2.24"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 100
+	neutrality = 0
+}
+
+recruit_character = joe_biden
+

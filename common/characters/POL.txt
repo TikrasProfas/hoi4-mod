@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Sitek
+sitek = {
+	name = sitek
+	portraits = {
+		civilian = {
+			#Custom image for Sitek
+			large = "/gfx/leaders/POL/RzkcUqSx-121928.dds"
+		}
+	}
+	country_leader = {
+		expire = "2500.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

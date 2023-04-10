@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Profas the 2nd
+profas_the_2nd = {
+	name = profas_the_2nd
+	portraits = {
+		civilian = {
+			#Custom image for Profas the 2nd
+			large = "/gfx/leaders/KAU/Mxzvybls-368030.dds"
+		}
+	}
+	country_leader = {
+		expire = "2500.1.1"
+		ideology = centrism
+		traits = {  dictator traditionalist_theorist }
+	}
+}
+}

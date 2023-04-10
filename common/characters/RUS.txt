@@ -1,0 +1,65 @@
+characters = {
+#Create country leader - Mikhail Gorbachev REAL
+mikhail_gorbachev_real = {
+	name = mikhail_gorbachev_real
+	portraits = {
+		civilian = {
+			#Custom image for Mikhail Gorbachev REAL
+			large = "/gfx/leaders/RUS/NvKGlyAB-366837.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {  }
+	}
+}
+
+#Create country leader - Jude
+jude = {
+	name = jude
+	portraits = {
+		civilian = {
+			#Custom image for Jude
+			large = "/gfx/leaders/RUS/NZnKrtVL-9743.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Adolf Putin
+adolf_putin = {
+	name = adolf_putin
+	portraits = {
+		civilian = {
+			#Custom image for Adolf Putin
+			large = "/gfx/leaders/RUS/oCrmOuKA-366863.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {  }
+	}
+}
+
+#Create country leader - Profas
+profas = {
+	name = profas
+	portraits = {
+		civilian = {
+			#Custom image for Profas
+			large = "/gfx/leaders/RUS/oxsjCRuY-369988.dds"
+		}
+	}
+	country_leader = {
+		expire = "2500.1.1"
+		ideology = centrism
+		traits = {  dictator traditionalist_theorist }
+	}
+}
+}
