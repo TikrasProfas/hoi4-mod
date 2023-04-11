@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Special Military Operation in Ukraine
+	SpriteType = { 
+		name = "1_special_military_operation_in_ukraine-367371"
+		texturefile = "gfx/interface/events/special-military-operation-in-ukraine-event/1_special_military_operation_in_ukraine-367371.dds"
+	}
+
+ 
+ }

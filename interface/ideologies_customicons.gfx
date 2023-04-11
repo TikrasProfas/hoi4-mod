@@ -1,0 +1,7 @@
+spriteTypes = {	##Icon For: Deep Ecology Nordeniteism
+	SpriteType = { 
+		name = "GFX_ideology_deep_ecology_nordeniteism_icon_group"
+		texturefile = "gfx/interface/ideologies/deep_ecology_nordeniteism_icon.dds"
+	}
+
+}
