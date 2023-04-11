@@ -11,7 +11,7 @@ focus_tree = {
 	#The Path of Proism
 	focus = {
 		id = RUS_the_path_of_proism
-		icon = vladimir_putin
+		icon = GFX_RUS_the_path_of_proism-369990
 		x = 4
 		y = 3
 		cost = 5
@@ -29,7 +29,7 @@ focus_tree = {
 	#T-14 Armata
 	focus = {
 		id = RUS_t14_armata
-		icon = t14_armata
+		icon = GFX_RUS_t14_armata-370013
 		x = 9
 		y = 4
 		cost = 10
@@ -52,7 +52,7 @@ focus_tree = {
 	#Defend Russia!
 	focus = {
 		id = RUS_defendrussia
-		icon = petrogradcircle
+		icon = GFX_RUS_defendrussia-370017
 		x = 10
 		y = 5
 		cost = 5
@@ -65,7 +65,7 @@ focus_tree = {
 	#Increase Arms Production
 	focus = {
 		id = RUS_increase_arms_production
-		icon = ak12
+		icon = GFX_RUS_increase_arms_production-369992
 		x = 3
 		y = 4
 		cost = 10
@@ -88,7 +88,7 @@ focus_tree = {
 	#Increase funding of Wagner Group
 	focus = {
 		id = RUS_increase_funding_of_wagner_group
-		icon = wagner
+		icon = GFX_RUS_increase_funding_of_wagner_group-369993
 		x = 5
 		y = 4
 		cost = 5
@@ -106,7 +106,7 @@ focus_tree = {
 	#Launch a Special Military Operation in Ukraine
 	focus = {
 		id = RUS_launch_a_special_military_operation_in_ukraine
-		icon = the_z_apc
+		icon = GFX_RUS_launch_a_special_military_operation_in_ukraine-370003
 		x = 4
 		y = 5
 		cost = 5
@@ -128,7 +128,7 @@ focus_tree = {
 	#Declare a Partial Mobilization
 	focus = {
 		id = RUS_declare_a_partial_mobilization
-		icon = Russia_of_Patriots
+		icon = GFX_RUS_declare_a_partial_mobilization-370005
 		x = 2
 		y = 6
 		cost = 10
@@ -168,7 +168,7 @@ annex_country = {
 	#Invade Poland
 	focus = {
 		id = RUS_invade_poland
-		icon = antirussiaicon
+		icon = GFX_RUS_invade_poland-370011
 		x = 4
 		y = 7
 		cost = 5
@@ -190,7 +190,7 @@ declare_war_on = {
 	#Total War!
 	focus = {
 		id = RUS_totalwar
-		icon = rus_war
+		icon = GFX_RUS_totalwar-370012
 		x = 10
 		y = 3
 		cost = 10
@@ -212,7 +212,7 @@ declare_war_on = {
 	#Never Surrender!
 	focus = {
 		id = RUS_neversurrender
-		icon = putinist_propaganda
+		icon = GFX_RUS_neversurrender-370016
 		x = 11
 		y = 4
 		cost = 10

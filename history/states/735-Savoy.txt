@@ -3,6 +3,8 @@ state = {
 	name = "STATE_735"
 	state_category = town
 	history = {
+		owner = ITA
+		add_core_of = ITA
 		add_claim_by = SPM
 		victory_points = {
 			778 1 
