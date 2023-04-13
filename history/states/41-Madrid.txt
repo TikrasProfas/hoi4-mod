@@ -5,6 +5,8 @@ state = {
 		aluminium = 1.000
 	}
 	history = {
+		owner = SPR
+		add_core_of = SPR
 		victory_points = {
 			3938 30 
 		}

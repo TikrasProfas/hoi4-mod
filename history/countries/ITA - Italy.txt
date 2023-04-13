@@ -429,6 +429,8 @@ set_popularities = {
 	neutrality = 5
 }
 
+recruit_character = pope_francis
+
 #Characters disabled 
 #
 #recruit_character = ITA_benito_mussolini

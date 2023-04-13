@@ -8,6 +8,8 @@ state = {
 		aluminium = 2
 	}
 	history = {
+		owner = ENG
+		add_core_of = ENG
 		victory_points = {
 			6384 30 
 		}

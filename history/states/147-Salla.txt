@@ -4,6 +4,8 @@ state = {
 	manpower = 4630
 	state_category = enclave
 	history = {
+		owner = FIN
+		add_core_of = FIN
 		buildings = {
 			infrastructure = 2
 		}

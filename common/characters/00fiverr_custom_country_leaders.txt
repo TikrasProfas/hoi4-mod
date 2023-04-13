@@ -25,4 +25,30 @@ characters = {
 			traits = {  }
 		}
 	}
+	juan_carlos = {
+		name = juan_carlos
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/SPR/juan_carlos.dds"
+			}
+		}
+		country_leader = {
+			expire = "2500.1.1"
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	pope_francis = {
+		name = pope_francis
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/ITA/pope_francis.dds"
+			}
+		}
+		country_leader = {
+			expire = "2500.1.1"
+			ideology = conservatism
+			traits = {  }
+		}
+	}
 }

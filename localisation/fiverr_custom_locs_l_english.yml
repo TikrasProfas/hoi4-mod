@@ -1,8 +1,14 @@
 ﻿l_english:
+
+ #Nations
 BSR_democratic_party:0 "PAS"
 BSR_democratic_party_long:0 "Partidul Acţiune şi Solidaritate"
-Maia_Sandu:0 "Maia Sandu"
-Emmanuel_Macron:0 "Emmanuel Frédéric Macron"
 BSR:5 "Moldova"
 BSR_DEF:5 "The Moldovan Republic"
 BSR_ADJ:5 "Moldovan"
+
+ #Characters
+Maia_Sandu:0 "Maia Sandu"
+Emmanuel_Macron:0 "Emmanuel Frédéric Macron"
+juan_carlos:0 "Juan Carlos"
+pope_francis:0 "Pope Francis"
