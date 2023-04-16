@@ -1,0 +1,574 @@
+focus_tree = {
+	id = france-ft
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	#Birth of New France
+	focus = {
+		id = FRA_birth_of_new_france
+		icon = GFX_focus_fra_le_deluge
+		x = 6
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Rebuilding the Industries of France
+	focus = {
+		id = FRA_rebuilding_the_industries_of_france
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_birth_of_new_france  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Infrastructure Investments
+	focus = {
+		id = FRA_infrastructure_investments
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_rebuilding_the_industries_of_france  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			}
+		}
+	}
+
+	#Agricultural Diversification Reforms
+	focus = {
+		id = FRA_agricultural_diversification_reforms
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_infrastructure_investments  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	#University Expansions
+	focus = {
+		id = FRA_university_expansions
+		icon = GFX_focus_research
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_agricultural_diversification_reforms  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	#Improve the Roads
+	focus = {
+		id = FRA_improve_the_roads
+		icon = GFX_FRA_improve_the_roads-262129
+		x = 3
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_university_expansions  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+			}
+		}
+	}
+
+	#A Reformed Economy
+	focus = {
+		id = FRA_a_reformed_economy
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 4
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_improve_the_roads  } prerequisite = { focus = FRA_our_industry_center  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			}
+		}
+	}
+
+	#Improving the Cities
+	focus = {
+		id = FRA_improving_the_cities
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_rebuilding_the_industries_of_france  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+	#French Refineries Expansions
+	focus = {
+		id = FRA_french_refineries_expansions
+		icon = GFX_goal_generic_oil_refinery
+		x = 5
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_improving_the_cities  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = synthetic_refinery
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_building_construction = {
+			type = synthetic_refinery
+			level = 2
+			instant_build = yes
+			}
+			}
+		}
+	}
+
+	#Building Up the Military
+	focus = {
+		id = FRA_building_up_the_military
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_french_refineries_expansions  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			}
+		}
+	}
+
+	#Our Industry Center
+	focus = {
+		id = FRA_our_industry_center
+		icon = GFX_FRA_our_industry_center-185523
+		x = 5
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_building_up_the_military  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			ROOT = {
+				capital_scope = {
+					add_resource = {
+						type = aluminium
+						amount = 6
+					}	
+				}
+				capital_scope = {
+					add_resource = {
+						type = chromium
+						amount = 4
+					}	
+				}
+				capital_scope = {
+					add_resource = {
+					type = steel
+					amount = 6
+					}	
+				}
+				capital_scope = {
+					add_resource = {
+					type = tungsten
+					amount = 7
+					}	
+				}
+			}
+		}
+	}
+
+	#Reclamation of France
+	focus = {
+		id = FRA_reclamation_of_france
+		icon = GFX_focus_fra_french_union
+		x = 8
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_birth_of_new_france  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Look West
+	focus = {
+		id = FRA_look_west
+		icon = GFX_focus_attack_france
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_reclamation_of_france  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Look East
+	focus = {
+		id = FRA_look_east
+		icon = GFX_FRA_look_east-118
+		x = 9
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_reclamation_of_france  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Taking Back our Lost Lands
+	focus = {
+		id = FRA_taking_back_our_lost_lands
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = 8
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_look_west  } prerequisite = { focus = FRA_look_east  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Dreams of a Greater France
+	focus = {
+		id = FRA_dreams_of_a_greater_france
+		icon = GFX_focus_focus_fra_border
+		x = 8
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_taking_back_our_lost_lands  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#The French Armed Forces
+	focus = {
+		id = FRA_the_french_armed_forces
+		icon = GFX_focus_fra_milice
+		x = 14
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			air_experience = 25
+			navy_experience = 25
+			army_experience = 25
+		}
+	}
+
+	#Arms Industry Expansion
+	focus = {
+		id = FRA_arms_industry_expansion
+		icon = GFX_goal_generic_military_sphere
+		x = 13
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_the_french_armed_forces  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+			}
+			}
+			
+			
+		}
+	}
+
+	#New Officers School
+	focus = {
+		id = FRA_new_officers_school
+		icon = GFX_FRA_new_officers_school-262024
+		x = 15
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_the_french_armed_forces  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Dockyard Expansions
+	focus = {
+		id = FRA_dockyard_expansions
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 14
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_the_french_armed_forces  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = dockyard
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+			}
+			}
+			
+			
+		}
+	}
+
+	#Fighter Efforts
+	focus = {
+		id = FRA_fighter_efforts
+		icon = GFX_goal_generic_air_fighter
+		x = 16
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_new_officers_school  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#Infantry Development
+	focus = {
+		id = FRA_infantry_development
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 12
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_arms_industry_expansion  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	#A Reformed Army
+	focus = {
+		id = FRA_a_reformed_army
+		icon = GFX_focus_focus_fra_down_marianne
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_dockyard_expansions  } prerequisite = { focus = FRA_fighter_efforts  } prerequisite = { focus = FRA_infantry_development  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+}
