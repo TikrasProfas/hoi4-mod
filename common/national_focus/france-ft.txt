@@ -19,6 +19,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ideas = ideological_fanaticism_focus
+		}
 	}
 
 	#Rebuilding the Industries of France
@@ -33,6 +36,38 @@ focus_tree = {
 		}
 		prerequisite = { focus = FRA_birth_of_new_france  }
 		ai_will_do = { factor = 1 }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Infrastructure Investments
@@ -49,18 +84,18 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = arms_factory
-			size > 0
-			include_locked = yes
-			}
-			}
-			add_building_construction = {
-			type = arms_factory
-			level = 2
-			instant_build = yes
-			}
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -228,6 +263,12 @@ focus_tree = {
 			random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 1
 			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
 		}
 	}
 
@@ -244,19 +285,24 @@ focus_tree = {
 		prerequisite = { focus = FRA_improving_the_cities  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 4
+				category = excavation_tech
+			}
 			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = synthetic_refinery
-			size > 0
-			include_locked = yes
-			}
-			}
-			add_building_construction = {
-			type = synthetic_refinery
-			level = 2
-			instant_build = yes
-			}
+				limit = {
+					free_building_slots = {
+					building = synthetic_refinery
+					size > 0
+					include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -305,6 +351,12 @@ focus_tree = {
 		prerequisite = { focus = FRA_building_up_the_military  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
 			ROOT = {
 				capital_scope = {
 					add_resource = {
@@ -347,7 +399,15 @@ focus_tree = {
 		prerequisite = { focus = FRA_birth_of_new_france  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			add_timed_idea = {
+				idea = paramilitarism_focus
+				days = 1460
+			}
 		}
 	}
 
@@ -398,7 +458,14 @@ focus_tree = {
 		prerequisite = { focus = FRA_look_west  } prerequisite = { focus = FRA_look_east  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
+			create_wargoal = {
+			    type = annex_everything
+			    target = ITA
+			}
+			create_wargoal = {
+			    type = annex_everything
+			    target = BUR
+			}
 		}
 	}
 
@@ -415,7 +482,22 @@ focus_tree = {
 		prerequisite = { focus = FRA_taking_back_our_lost_lands  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
+			create_wargoal = {
+			    type = annex_everything
+			    target = SPR
+			}
+			create_wargoal = {
+			    type = annex_everything
+			    target = NRO
+			}
+			create_wargoal = {
+			    type = annex_everything
+			    target = HOL
+			}
+			create_wargoal = {
+			    type = annex_everything
+			    target = CZE
+			}
 		}
 	}
 
@@ -483,7 +565,12 @@ focus_tree = {
 		prerequisite = { focus = FRA_the_french_armed_forces  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1.0
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 
@@ -520,6 +607,82 @@ focus_tree = {
 		}
 	}
 
+	#Navy Effort
+	focus = {
+		id = FRA_navy_effort
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_dockyard_expansions  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+				category = cv_tech
+			}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = dd_tech
+			}
+			
+		}
+	}
+
+	#Navy Effort II
+	focus = {
+		id = FRA_navy_effort_ii
+		icon = GFX_goal_generic_amphibious_assault
+		x = 14
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_navy_effort  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			navy_experience = 10
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 1.0
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = ss_tech
+			}	
+		}
+	}
+
 	#Fighter Efforts
 	focus = {
 		id = FRA_fighter_efforts
@@ -533,7 +696,121 @@ focus_tree = {
 		prerequisite = { focus = FRA_new_officers_school  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
+									
+			air_experience = 25
+									
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	#FRA_bomberfocus
+	focus = {
+		id = FRA_bomber_efforts
+		icon = GFX_goal_generic_air_bomber
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_fighter_efforts  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {	
+			air_experience = 10	
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				technology = strategic_bomber1
+				technology = strategic_bomber2
+				technology = strategic_bomber3
+				category = tactical_bomber
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	#Rocket Efforts
+	focus = {
+		id = FRA_rocket_efforts
+		icon = GFX_focus_rocketry
+		x = 16
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_bomber_efforts  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {	
+			air_experience = 10	
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				technology = strategic_bomber1
+				technology = strategic_bomber2
+				technology = strategic_bomber3
+				category = tactical_bomber
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
 		}
 	}
 
@@ -550,7 +827,58 @@ focus_tree = {
 		prerequisite = { focus = FRA_arms_industry_expansion  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 1
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	#Infantry Development II
+	focus = {
+		id = FRA_infantry_development_ii
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 12
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_infantry_development  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 1
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	#Tank Development II
+	focus = {
+		id = FRA_tank_development
+		icon = GFX_goal_generic_army_tanks
+		x = 12
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_infantry_development_ii  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
 		}
 	}
 
@@ -559,15 +887,28 @@ focus_tree = {
 		id = FRA_a_reformed_army
 		icon = GFX_focus_focus_fra_down_marianne
 		x = 14
-		y = 3
+		y = 5
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = FRA_dockyard_expansions  } prerequisite = { focus = FRA_fighter_efforts  } prerequisite = { focus = FRA_infantry_development  }
+		prerequisite = { focus = FRA_navy_effort_ii  } 
+		prerequisite = { focus = FRA_rocket_efforts  } 
+		prerequisite = { focus = FRA_tank_development  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 2
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
 		}
 	}
 

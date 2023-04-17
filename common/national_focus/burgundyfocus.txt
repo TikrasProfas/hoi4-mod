@@ -1,0 +1,275 @@
+focus_tree = {
+	id = burgundyfocus
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BUR
+		}
+	}
+	#Great War Agaisnt the Nordenites
+	focus = {
+		id = BUR_great_war_agaisnt_the_nordenites
+		icon = GFX_focus_ger_oppose_hitler
+		x = 4
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_surrounded_by_enemies  } prerequisite = { focus = BUR_elite_spartan_ss  } prerequisite = { focus = BUR_extend_the_grenzeschild  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Heil Atlas!
+	focus = {
+		id = BUR_heilatlas
+		icon = GFX_focus_ger_reichskommisariats
+		x = 4
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#The True SS
+	focus = {
+		id = BUR_the_true_ss
+		icon = GFX_focus_BUL_prussia_of_the_balkans
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_heilatlas  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Purge the Disloyal
+	focus = {
+		id = BUR_purge_the_disloyal
+		icon = GFX_BUR_purge_the_disloyal-262098
+		x = 4
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_the_true_ss  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Surrounded by Enemies
+	focus = {
+		id = BUR_surrounded_by_enemies
+		icon = GFX_focus_usa_focus_on_europe
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_purge_the_disloyal  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Reorganizing the SS
+	focus = {
+		id = BUR_reorganizing_the_ss
+		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_heilatlas  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Spartan Discipline
+	focus = {
+		id = BUR_spartan_discipline
+		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_reorganizing_the_ss  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Elite Spartan SS
+	focus = {
+		id = BUR_elite_spartan_ss
+		icon = GFX_BUR_elite_spartan_ss-112516
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_spartan_discipline  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Grenzeschild
+	focus = {
+		id = BUR_grenzeschild
+		icon = GFX_BUR_grenzeschild-229858
+		x = 6
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_heilatlas  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Mobilizing the SS
+	focus = {
+		id = BUR_mobilizing_the_ss
+		icon = GFX_BUR_mobilizing_the_ss-185522
+		x = 6
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_grenzeschild  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Extend the Grenzeschild
+	focus = {
+		id = BUR_extend_the_grenzeschild
+		icon = GFX_BUR_extend_the_grenzeschild-247778
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_mobilizing_the_ss  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Developing the Nukes
+	focus = {
+		id = BUR_developing_the_nukes
+		icon = GFX_focus_wonderweapons
+		x = 12
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Preparing the Bunkers
+	focus = {
+		id = BUR_preparing_the_bunkers
+		icon = GFX_goal_generic_fortify_city
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_developing_the_nukes  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Improving the Bunkers
+	focus = {
+		id = BUR_improving_the_bunkers
+		icon = GFX_focus_generic_coastal_fort
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_preparing_the_bunkers  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#A Safe Place Underground
+	focus = {
+		id = BUR_a_safe_place_underground
+		icon = GFX_focus_spa_save_the_alcazar
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_improving_the_bunkers  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Carving for Uranium
+	focus = {
+		id = BUR_carving_for_uranium
+		icon = GFX_focus_research
+		x = 14
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_developing_the_nukes  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Improving the Nukes
+	focus = {
+		id = BUR_improving_the_nukes
+		icon = GFX_focus_rocketry
+		x = 14
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_carving_for_uranium  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#Rise of Burgandian Nukes
+	focus = {
+		id = BUR_rise_of_burgandian_nukes
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_improving_the_nukes  }
+		ai_will_do = { factor = 1 }
+	}
+
+	#The Ultimate Salvation
+	focus = {
+		id = BUR_the_ultimate_salvation
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 12
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUR_a_safe_place_underground  } prerequisite = { focus = BUR_rise_of_burgandian_nukes  }
+		ai_will_do = { factor = 1 }
+	}
+
+}
