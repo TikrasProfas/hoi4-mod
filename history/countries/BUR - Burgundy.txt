@@ -1,5 +1,5 @@
 ﻿oob = "BUR_1936"
-capital = 1
+capital = 16
 set_research_slots = 3
 set_stability = 80.00
 set_war_support = 70.00

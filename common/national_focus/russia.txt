@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = RUS_t14_armata
 		icon = GFX_RUS_t14_armata-370013
-		x = 9
+		x = 8
 		y = 4
 		cost = 10
 		search_filters = {
@@ -43,9 +43,6 @@ focus_tree = {
 			    amount = 1000
 			    producer = SOV
 			}
-			
-			
-			
 		}
 	}
 
@@ -54,12 +51,14 @@ focus_tree = {
 		id = RUS_defendrussia
 		icon = GFX_RUS_defendrussia-370017
 		x = 10
-		y = 5
+		y = 6
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = RUS_t14_armata  } prerequisite = { focus = RUS_neversurrender  }
+		prerequisite = { focus = RUS_mobilize_moscow  }
+		prerequisite = { focus = RUS_mobilize_the_siberian_soldiers  }
+		prerequisite = { focus = RUS_quiver_of_arrows  }
 	}
 
 	#Increase Arms Production
@@ -97,9 +96,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = RUS_the_path_of_proism  }
 		completion_reward = {
-			add_war_support = 40.00
-			
-			
+			add_war_support = 0.4	
 		}
 	}
 
@@ -154,15 +151,12 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		prerequisite = { focus = RUS_launch_a_special_military_operation_in_ukraine  }
-		select_effect = {
-annex_country = {
-    target = BLR
-    transfer_troops = yes
-}
-
-
-
-}
+		completion_reward = {
+			annex_country = {
+			    target = BLR
+			    transfer_troops = yes
+			}
+		}
 	}
 
 	#Invade Poland
@@ -176,15 +170,12 @@ annex_country = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		prerequisite = { focus = RUS_declare_a_partial_mobilization  } prerequisite = { focus = RUS_annex_belarus  }
-		select_effect = {
-declare_war_on = {
-    target = POL
-    type = annex_everything
-}
-
-
-
-}
+		completion_reward = {
+			declare_war_on = {
+			    target = POL
+			    type = annex_everything
+			}
+		}
 	}
 
 	#Total War!
@@ -199,13 +190,9 @@ declare_war_on = {
 		}
 		available = {
 			has_war_with = NRO
-			
-			
 		}
 		completion_reward = {
 			add_manpower = 2000000
-			
-			
 		}
 	}
 
@@ -213,7 +200,7 @@ declare_war_on = {
 	focus = {
 		id = RUS_neversurrender
 		icon = GFX_RUS_neversurrender-370016
-		x = 11
+		x = 12
 		y = 4
 		cost = 10
 		search_filters = {
@@ -221,9 +208,79 @@ declare_war_on = {
 		}
 		prerequisite = { focus = RUS_totalwar  }
 		completion_reward = {
-			add_war_support = 50.00
-			
-			
+			add_ideas = militarism_focus
+		}
+	}
+
+	#quiver of arrows
+	focus = {
+		id = RUS_quiver_of_arrows
+		icon = GFX_RUS_quiver_of_arrows
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = RUS_totalwar  }
+		completion_reward = {
+			add_war_support = 0.5
+			add_ideas = military_youth_focus
+		}
+	}
+
+	#Mobilize the Siberian Soldiers
+	focus = {
+		id = RUS_mobilize_the_siberian_soldiers
+		icon = GFX_RUS_mobilize_siberia
+		x = 12
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = RUS_neversurrender  }
+		completion_reward = {
+			408 = {add_manpower = 100000}
+			409 = {add_manpower = 100000}
+			655 = {add_manpower = 100000}
+			560 = {add_manpower = 100000}
+			657 = {add_manpower = 100000}
+			537 = {add_manpower = 100000}
+			637 = {add_manpower = 100000}
+			822 = {add_manpower = 100000}
+			874 = {add_manpower = 100000}
+			644 = {add_manpower = 100000}
+			562 = {add_manpower = 100000}
+			877 = {add_manpower = 100000}
+			574 = {add_manpower = 100000}
+			561 = {add_manpower = 100000}
+			876 = {add_manpower = 100000}
+			575 = {add_manpower = 100000}
+			567 = {add_manpower = 100000}
+		}
+	}
+
+	#Mobilize the Moscovian Soldiers
+	focus = {
+		id = RUS_mobilize_moscow
+		icon = GFX_RUS_mobilize_moscow
+		x = 8
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = RUS_t14_armata  }
+		completion_reward = {
+			219 = {add_manpower = 100000}
+			247 = {add_manpower = 100000}
+			246 = {add_manpower = 100000}
+			205 = {add_manpower = 100000}
+			242 = {add_manpower = 100000}
+			253 = {add_manpower = 100000}
+			254 = {add_manpower = 100000}
+			248 = {add_manpower = 100000}
 		}
 	}
 
