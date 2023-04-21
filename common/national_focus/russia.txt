@@ -21,8 +21,26 @@ focus_tree = {
 		mutually_exclusive = { }
 		completion_reward = {
 			set_political_power = 300
-			
-			
+			division_template = {
+				name = "PMC Wagner"
+				division_cap = 7
+				is_locked = yes
+				priority = 1
+				template_counter = 0
+				regiments = {
+					irregular_infantry = { x = 0 y = 0 }
+					irregular_infantry = { x = 0 y = 1 }
+					irregular_infantry = { x = 0 y = 2 }
+					irregular_infantry = { x = 0 y = 3 }
+					irregular_infantry = { x = 1 y = 0 }
+					irregular_infantry = { x = 1 y = 1 }
+					irregular_infantry = { x = 1 y = 2 }
+					irregular_infantry = { x = 1 y = 3 }
+				}
+				support = {
+					military_police = { x = 0 y = 0 }
+				}
+			}
 		}
 	}
 
@@ -43,6 +61,7 @@ focus_tree = {
 			    amount = 1000
 			    producer = SOV
 			}
+			add_ideas = military_parade
 		}
 	}
 
@@ -60,7 +79,135 @@ focus_tree = {
 		prerequisite = { focus = RUS_mobilize_the_siberian_soldiers  }
 		prerequisite = { focus = RUS_quiver_of_arrows  }
 		completion_reward = {
-			set_cosmetic_tag = RUS_EMP
+			add_ideas = paramilitarism_focus
+			195 = {
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3151
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3151
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3151
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3151
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3151
+					owner = RUS
+				}
+			}
+			#Stalingrad Units
+			217 = {
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 	start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3529
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 	start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3529
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 	start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3529
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 	start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3529
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 	start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3529
+					owner = RUS
+				}
+			}
+			capital_scope = {
+				#Moscow Units
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template = \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"Russian Conscript\" division_template =  \"Russian Conscript\" start_experience_factor = 0.95 		start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+			}
 		}
 	}
 
@@ -99,7 +246,51 @@ focus_tree = {
 		}
 		prerequisite = { focus = RUS_the_path_of_proism  }
 		completion_reward = {
-			add_war_support = 0.4	
+			add_war_support = 0.4
+			capital_scope = {
+				create_unit = {
+					division = "name = \"PMC Wagner\" division_template = \"PMC Wagner\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"PMC Wagner\" division_template = \"PMC Wagner\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"PMC Wagner\" division_template = \"PMC Wagner\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"PMC Wagner\" division_template = \"PMC Wagner\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"PMC Wagner\" division_template = \"PMC Wagner\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"PMC Wagner\" division_template = \"PMC Wagner\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+				create_unit = {
+					division = "name = \"PMC Wagner\" division_template = \"PMC Wagner\" start_experience_factor = 0.95 start_equipment_factor = 0.95"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 6380
+					owner = RUS
+				}
+			}
 		}
 	}
 
@@ -181,6 +372,23 @@ focus_tree = {
 		}
 	}
 
+	#Restore the Russian Empire
+	focus = {
+		id = RUS_restore_the_russian_empire
+		icon = GFX_RUS_restore_the_russian_empire
+		x = 4
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RUS_invade_poland  }
+		completion_reward = {
+			add_ideas = deterrence
+			set_cosmetic_tag = RUS_EMPIRE_CS
+		}
+	}
+
 	#Total War!
 	focus = {
 		id = RUS_totalwar
@@ -196,6 +404,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_manpower = 2000000
+			add_ideas = why_we_fight_focus
 		}
 	}
 
@@ -229,6 +438,28 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.5
 			add_ideas = military_youth_focus
+
+			division_template = {
+				name = "Russian Conscript"
+				division_cap = 24
+				is_locked = no
+				priority = 1
+				template_counter = 0
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+				}
+				support = {
+					anti_tank = { x = 0 y = 0 }
+					anti_air = { x = 1 y = 0 }
+				}
+			}
 		}
 	}
 
@@ -286,3 +517,4 @@ focus_tree = {
 			248 = {add_manpower = 100000}
 		}
 	}
+}
