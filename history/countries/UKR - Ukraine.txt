@@ -48,8 +48,8 @@ set_popularities = {
 #Politics for 1939.1.1
 1939.1.1 = {
 	set_popularities = {
-		democratic = 1
-		fascism = 97
+		democratic = 97
+		fascism = 1
 		communism = 1
 		neutrality = 1
 	}
@@ -58,8 +58,8 @@ set_popularities = {
 #Politics for 2022.1.1
 2022.1.1 = {
 	set_popularities = {
-		democratic = 1
-		fascism = 97
+		democratic = 97
+		fascism = 1
 		communism = 1
 		neutrality = 1
 	}
