@@ -50,7 +50,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -60,7 +60,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -70,7 +70,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -80,7 +80,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -90,7 +90,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -100,7 +100,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -110,7 +110,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -120,7 +120,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -130,7 +130,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -140,7 +140,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -150,7 +150,7 @@ units = {
 		location = 6380
 		division_template = "Motorized Unit"
 		start_experience_factor = 0.25
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	
 	division= {	#Soldier divisions
@@ -161,7 +161,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 
 	}	
 	division= {
@@ -172,7 +172,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -182,7 +182,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -192,7 +192,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -202,7 +202,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -212,7 +212,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -222,7 +222,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -232,7 +232,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -242,7 +242,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -252,7 +252,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -262,7 +262,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -272,7 +272,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -282,7 +282,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -292,7 +292,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -302,7 +302,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -312,7 +312,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -322,7 +322,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -332,7 +332,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -342,7 +342,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -352,7 +352,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -362,7 +362,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -372,7 +372,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -382,7 +382,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -392,7 +392,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -402,7 +402,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 	division= {
 		division_name = {
@@ -412,7 +412,7 @@ units = {
 		location = 6380
 		division_template = "Russian Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 	}
 }
 
