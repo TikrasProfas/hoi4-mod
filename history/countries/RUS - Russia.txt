@@ -21,12 +21,6 @@ add_ideas = {
 
 
 
-#For start date 1939.1.1
-1939.1.1 = {
-	add_political_power = 1000
-	oob = "RUS_1939"
-}
-
 #Politics for 1936.1.1
 set_politics = {
 	ruling_party = neutrality
@@ -39,16 +33,6 @@ set_popularities = {
 	fascism = 28
 	communism = 1
 	neutrality = 70
-}
-
-#Politics for 1939.1.1
-1939.1.1 = {
-	set_popularities = {
-		democratic = 6
-		fascism = 4
-		communism = 5
-		neutrality = 85
-	}
 }
 
 recruit_character = profas

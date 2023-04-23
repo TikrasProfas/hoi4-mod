@@ -1,19 +1,6 @@
 ﻿capital = 24
+set_oob = "FRA_2022"
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "FRA_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "FRA_1936_nsb"
-}
 
 starting_train_buffer = 2
 
