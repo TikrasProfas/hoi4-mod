@@ -7,16 +7,13 @@ news_event = {
 	desc = 1_special-military-operation-in-ukraine.1.d
 
 	picture = 1_special_military_operation_in_ukraine-367371
-	fire_only_once = yes
-	is_triggered_only = yes
 	trigger = {
-		
-
-
-RUS = {has_war_with = UKR
-
-}
-
+		AND = {
+			NOT = {has_global_flag = RUS_UKR_WAR}
+			RUS = {
+				has_war_with = UKR
+			}
+		}
 	}
 	mean_time_to_happen = { days = 2 }
 	major = yes
@@ -28,7 +25,7 @@ RUS = {has_war_with = UKR
 		ai_chance = { factor = 1 }
 		
 		hidden_effect = {
-			
+			set_global_flag = RUS_UKR_WAR
 		}
 	}
 }
